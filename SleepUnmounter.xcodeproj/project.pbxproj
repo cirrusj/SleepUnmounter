@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3DC6A5165D2FC000AFBD1E /* media-eject-6.icns in Resources */ = {isa = PBXBuildFile; fileRef = AA3DC6A4165D2FC000AFBD1E /* media-eject-6.icns */; };
+		AA468076165D0D5500F7C2DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA468075165D0D5500F7C2DA /* Cocoa.framework */; };
+		AA468080165D0D5500F7C2DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA46807E165D0D5500F7C2DA /* InfoPlist.strings */; };
+		AA468082165D0D5500F7C2DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA468081165D0D5500F7C2DA /* main.m */; };
+		AA468086165D0D5500F7C2DA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AA468084165D0D5500F7C2DA /* Credits.rtf */; };
+		AA468089165D0D5500F7C2DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA468088165D0D5500F7C2DA /* AppDelegate.m */; };
+		AA46808C165D0D5500F7C2DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA46808A165D0D5500F7C2DA /* MainMenu.xib */; };
+		AA468094165D0D9800F7C2DA /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA468078165D0D5500F7C2DA /* AppKit.framework */; };
+		AA468096165D0D9C00F7C2DA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA468095165D0D9C00F7C2DA /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA3DC6A4165D2FC000AFBD1E /* media-eject-6.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "media-eject-6.icns"; path = "../media-eject-6.icns"; sourceTree = "<group>"; };
+		AA468071165D0D5500F7C2DA /* SleepUnmounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepUnmounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA468075165D0D5500F7C2DA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA468078165D0D5500F7C2DA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA468079165D0D5500F7C2DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA46807A165D0D5500F7C2DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA46807D165D0D5500F7C2DA /* SleepUnmounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SleepUnmounter-Info.plist"; sourceTree = "<group>"; };
+		AA46807F165D0D5500F7C2DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA468081165D0D5500F7C2DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA468083165D0D5500F7C2DA /* SleepUnmounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SleepUnmounter-Prefix.pch"; sourceTree = "<group>"; };
+		AA468085165D0D5500F7C2DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AA468087165D0D5500F7C2DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA468088165D0D5500F7C2DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA46808B165D0D5500F7C2DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA468095165D0D9C00F7C2DA /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA46806E165D0D5500F7C2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA468096165D0D9C00F7C2DA /* IOKit.framework in Frameworks */,
+				AA468094165D0D9800F7C2DA /* AppKit.framework in Frameworks */,
+				AA468076165D0D5500F7C2DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA468066165D0D5500F7C2DA = {
+			isa = PBXGroup;
+			children = (
+				AA46807B165D0D5500F7C2DA /* SleepUnmounter */,
+				AA468074165D0D5500F7C2DA /* Frameworks */,
+				AA468072165D0D5500F7C2DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA468072165D0D5500F7C2DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA468071165D0D5500F7C2DA /* SleepUnmounter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA468074165D0D5500F7C2DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA468095165D0D9C00F7C2DA /* IOKit.framework */,
+				AA468075165D0D5500F7C2DA /* Cocoa.framework */,
+				AA468077165D0D5500F7C2DA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA468077165D0D5500F7C2DA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA468078165D0D5500F7C2DA /* AppKit.framework */,
+				AA468079165D0D5500F7C2DA /* CoreData.framework */,
+				AA46807A165D0D5500F7C2DA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AA46807B165D0D5500F7C2DA /* SleepUnmounter */ = {
+			isa = PBXGroup;
+			children = (
+				AA468087165D0D5500F7C2DA /* AppDelegate.h */,
+				AA468088165D0D5500F7C2DA /* AppDelegate.m */,
+				AA46808A165D0D5500F7C2DA /* MainMenu.xib */,
+				AA46807C165D0D5500F7C2DA /* Supporting Files */,
+			);
+			path = SleepUnmounter;
+			sourceTree = "<group>";
+		};
+		AA46807C165D0D5500F7C2DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DC6A4165D2FC000AFBD1E /* media-eject-6.icns */,
+				AA46807D165D0D5500F7C2DA /* SleepUnmounter-Info.plist */,
+				AA46807E165D0D5500F7C2DA /* InfoPlist.strings */,
+				AA468081165D0D5500F7C2DA /* main.m */,
+				AA468083165D0D5500F7C2DA /* SleepUnmounter-Prefix.pch */,
+				AA468084165D0D5500F7C2DA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA468070165D0D5500F7C2DA /* SleepUnmounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA46808F165D0D5500F7C2DA /* Build configuration list for PBXNativeTarget "SleepUnmounter" */;
+			buildPhases = (
+				AA46806D165D0D5500F7C2DA /* Sources */,
+				AA46806E165D0D5500F7C2DA /* Frameworks */,
+				AA46806F165D0D5500F7C2DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepUnmounter;
+			productName = SleepUnmounter;
+			productReference = AA468071165D0D5500F7C2DA /* SleepUnmounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA468068165D0D5500F7C2DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = cirrus;
+			};
+			buildConfigurationList = AA46806B165D0D5500F7C2DA /* Build configuration list for PBXProject "SleepUnmounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA468066165D0D5500F7C2DA;
+			productRefGroup = AA468072165D0D5500F7C2DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA468070165D0D5500F7C2DA /* SleepUnmounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA46806F165D0D5500F7C2DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA468080165D0D5500F7C2DA /* InfoPlist.strings in Resources */,
+				AA468086165D0D5500F7C2DA /* Credits.rtf in Resources */,
+				AA46808C165D0D5500F7C2DA /* MainMenu.xib in Resources */,
+				AA3DC6A5165D2FC000AFBD1E /* media-eject-6.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA46806D165D0D5500F7C2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA468082165D0D5500F7C2DA /* main.m in Sources */,
+				AA468089165D0D5500F7C2DA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA46807E165D0D5500F7C2DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA46807F165D0D5500F7C2DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA468084165D0D5500F7C2DA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA468085165D0D5500F7C2DA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AA46808A165D0D5500F7C2DA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA46808B165D0D5500F7C2DA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA46808D165D0D5500F7C2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA46808E165D0D5500F7C2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA468090165D0D5500F7C2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = cirrus;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SleepUnmounter/SleepUnmounter-Prefix.pch";
+				INFOPLIST_FILE = "SleepUnmounter/SleepUnmounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA468091165D0D5500F7C2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = cirrus;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SleepUnmounter/SleepUnmounter-Prefix.pch";
+				INFOPLIST_FILE = "SleepUnmounter/SleepUnmounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA46806B165D0D5500F7C2DA /* Build configuration list for PBXProject "SleepUnmounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA46808D165D0D5500F7C2DA /* Debug */,
+				AA46808E165D0D5500F7C2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA46808F165D0D5500F7C2DA /* Build configuration list for PBXNativeTarget "SleepUnmounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA468090165D0D5500F7C2DA /* Debug */,
+				AA468091165D0D5500F7C2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA468068165D0D5500F7C2DA /* Project object */;
+}
